@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+    <title>IconMKR</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
+    <link rel="stylesheet" href={{ url_for('static', filename='css/uikit.min.css') }} />
+    <script src={{ url_for('static', filename='js/jquery-3.2.1.min.js') }}></script>
+    <script src={{ url_for('static', filename='js/uikit.min.js') }}></script>
+    <script src={{ url_for('static', filename='js/uikit-icons.min.js') }}></script>
+    <style>
+        html {
+            font-family: 'Nunito Sans', sans-serif;
+        }
+    </style>
+    {% block head %}
+    {% endblock %}
+</head>
+<body>
+    <nav class="uk-dark uk-navbar-container uk-light" style="background-color: #008CE9" uk-navbar>
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="/">Icon Maker</a>
+            <!--
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#">Active</a></li>
+                    <li>
+                        <a href="#">Parent</a>
+                        <div class="uk-navbar-dropdown">
+                            <ul class="uk-nav uk-navbar-dropdown-nav">
+                                <li class="uk-active"><a href="#">Active</a></li>
+                                <li><a href="#">Item</a></li>
+                                <li><a href="#">Item</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">Item</a></li>
+                </ul>
+            -->
+        </div>
+    </nav>            
+    <div class="uk-container uk-position-center">
+        {% block body %}
+        {% endblock %}
+    </div>              
+</body>
+</html>

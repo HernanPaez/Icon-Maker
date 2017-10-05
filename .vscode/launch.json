@@ -1,0 +1,31 @@
+{
+    // Utilizar IntelliSense para aprender acerca de los posibles atributos.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos 
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Flask",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "${workspaceRoot}/bin/python",
+            "program": "${workspaceRoot}/bin/flask",
+            "cwd": "${workspaceRoot}",
+            "env": {
+                "FLASK_APP": "${workspaceRoot}/app/app.py"
+            },
+            "args": [
+                "run",
+                "--no-debugger",
+                "--no-reload"
+            ],
+            "envFile": "${workspaceRoot}/.env",
+            "debugOptions": [
+                "WaitOnAbnormalExit",
+                "WaitOnNormalExit",
+                "RedirectOutput"
+            ]
+        }
+    ]
+}
