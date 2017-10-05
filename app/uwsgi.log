@@ -1,0 +1,33 @@
+*** Starting uWSGI 2.0.15 (64bit) on [Thu Oct  5 18:51:10 2017] ***
+compiled with version: 5.4.0 20160609 on 05 October 2017 16:32:12
+os: Linux-4.4.0-93-generic #116-Ubuntu SMP Fri Aug 11 21:17:51 UTC 2017
+nodename: ubuntu-512mb-nyc3-01
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/hernan/icon-resizer/app
+detected binary path: /home/hernan/icon-resizer/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+your processes number limit is 1880
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address icon-resizer.sock fd 3
+Python version: 3.5.2 (default, Sep 14 2017, 22:51:06)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d09f80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 436560 bytes (426 KB) for 5 cores
+*** Operational MODE: preforking ***
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2149)
+spawned uWSGI worker 1 (pid: 2152, cores: 1)
+spawned uWSGI worker 2 (pid: 2153, cores: 1)
+spawned uWSGI worker 3 (pid: 2154, cores: 1)
+spawned uWSGI worker 4 (pid: 2155, cores: 1)
+spawned uWSGI worker 5 (pid: 2156, cores: 1)
+--- no python application found, check your startup logs for errors ---
+[pid: 2156|app: -1|req: -1/1] 186.143.136.93 () {40 vars in 646 bytes} [Thu Oct  5 18:51:51 2017] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 2 headers in 83 bytes (0 switches on core 0)
