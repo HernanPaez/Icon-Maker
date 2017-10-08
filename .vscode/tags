@@ -2465,7 +2465,7 @@ altsep	../lib/python3.6/posixpath.py	/^altsep = None$/;"	kind:variable	line:36
 and_	../lib/python3.6/operator.py	/^def and_(a, b):$/;"	kind:function	line:79
 any	../lib/python3.6/tokenize.py	/^def any(*choices): return group(*choices) + '*'$/;"	kind:function	line:113
 app	../app/app.py	/^app = Flask(__name__)$/;"	kind:variable	line:11
-app	../app/wsgi.py	/^from app import app$/;"	kind:namespace	line:1
+app	../wsgi.py	/^from app.app import app$/;"	kind:namespace	line:1
 app.py	../app/app.py	1;"	kind:file	line:1
 append	../lib/python3.6/_collections_abc.py	/^    def append(self, value):$/;"	kind:member	line:966
 append	../lib/python3.6/collections/__init__.py	/^    def append(self, item): self.data.append(item)$/;"	kind:member	line:1081
@@ -5295,7 +5295,7 @@ writelines	../lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind
 writelines	../lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:720
 writelines	../lib/python3.6/codecs.py	/^    def writelines(self, list):$/;"	kind:member	line:836
 writelines	../lib/python3.6/tempfile.py	/^    def writelines(self, iterable):$/;"	kind:member	line:770
-wsgi.py	../app/wsgi.py	1;"	kind:file	line:1
+wsgi.py	../wsgi.py	1;"	kind:file	line:1
 xmlcharrefreplace_errors	../lib/python3.6/codecs.py	/^    xmlcharrefreplace_errors = None$/;"	kind:variable	line:1093
 xmlcharrefreplace_errors	../lib/python3.6/codecs.py	/^    xmlcharrefreplace_errors = lookup_error("xmlcharrefreplace")$/;"	kind:variable	line:1085
 xor	../lib/python3.6/operator.py	/^def xor(a, b):$/;"	kind:function	line:140
