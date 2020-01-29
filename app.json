@@ -1,0 +1,6 @@
+{
+    "name": "Icon-Maker",
+    "description": "An Xcode 9 App Icon Set Generator",
+    "repository": "https://github.com/HernanPaez/Icon-Maker",
+    "keywords": ["python", "xcode", "xcassets", "icons"]
+  }
