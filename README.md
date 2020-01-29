@@ -7,7 +7,7 @@ This is a Python Web App made with Flask and Pillow , you can check this out at 
 
 I've been using a lot of third party icon generators for my iOS projects but many of them are expensive apps or webpages that require you to open an account and/or provide an email address. Therefore, most of this apps doesn't work nice with Xcode 9 and generates icons sets with missing icon sizes. 
 
-## Deploy on Heroku
+## Deploy to Heroku
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
